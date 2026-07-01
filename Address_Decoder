@@ -1,0 +1,18 @@
+module address_decoder(
+    input [31:0] addr,
+    output reg sel_cache,
+    output reg sel_fifo
+);
+
+always @(*)
+begin
+    sel_cache = 1'b0;
+    sel_fifo = 1'b0;
+
+    if(addr >= 32'h00000000 && addr <= 32'h0000FFFF)
+        sel_cache = 1'b1;
+    else if(addr >= 32'h00010000 && addr <= 32'h0001FFFF)
+        sel_fifo = 1'b1;
+end
+
+endmodule
