@@ -1,0 +1,29 @@
+****************************************
+Report : area
+Design : axi4_interconnect_top
+Version: V-2023.12-SP5
+Date   : Sat Jul 11 06:29:47 2026
+****************************************
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /home/user49/AMBA_AXI4/synthesis/inputs/saed32hvt_ss0p95v125c.db)
+
+Number of ports:                          101
+Number of nets:                           305
+Number of cells:                           76
+Number of combinational cells:             71
+Number of sequential cells:                 4
+Number of macros/black boxes:               0
+Number of buf/inv:                         34
+Number of references:                       9
+
+Combinational area:                151.978110
+Buf/Inv area:                       43.966912
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              45.833751
+
+Total cell area:                   151.978110
+Total area:                        197.811861
+ 
